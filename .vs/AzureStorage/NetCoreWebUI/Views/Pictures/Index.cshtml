@@ -1,0 +1,39 @@
+﻿@using AzureProject.Entities.Models
+@model List<FileModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Upload Picture</h2>
+<br />
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="picture" />
+    <button class="btn btn-success" type="submit"> Upload</button>
+</form>
+<h2>Pictures</h2>
+<hr/>
+<table class="table table-bordered">
+    <tr>
+        <th>Picture</th>
+        <th>Name</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var file in Model)
+    {
+        <tr>
+            <td>
+                <img src="@file.Url" class="img-thumbnail" style="width: 125px;" alt="" />
+            </td>
+            <td>@file.Name</td>
+            <td>
+                <a class="btn btn-primary" asp-action="Download" asp-route-FileName="@file.Name">Download </a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-FileName="@file.Name">Delete </a>
+            </td>
+        </tr>
+    }
+
+
+</table>

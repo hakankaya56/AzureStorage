@@ -1,0 +1,14 @@
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Business.deps.json
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Business.dll
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.AssemblyInfoInputs.cache
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.AssemblyInfo.cs
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Business.pdb
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Core.dll
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Entities.dll
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Core.pdb
+D:\MyProjects\AzureProject\AzureProject.Business\bin\Debug\netcoreapp3.1\AzureProject.Entities.pdb
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.csprojAssemblyReference.cache
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.csproj.CoreCompileInputs.cache
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.csproj.CopyComplete
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.dll
+D:\MyProjects\AzureProject\AzureProject.Business\obj\Debug\netcoreapp3.1\AzureProject.Business.pdb

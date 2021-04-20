@@ -1,0 +1,22 @@
+﻿@using NetCoreWebUI.Models.Products
+@model ProductViewModel
+
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Update Product</h3>
+<form class="form-inline" asp-action="Update" method="post" enctype="application/x-wwww-form-urlencoded">
+    <input class="form-control mr-1" asp-for="Product.Name" placeholder="Product Name"  type="text" />
+    <input class="form-control mr-1" asp-for="Product.Brand" placeholder="Brand"   type="text" />
+    <input class="form-control mr-1" asp-for="Product.Price" placeholder="Price"  type="number" min="1" />
+    <input class="form-control mr-1" asp-for="Product.Stock" placeholder="Stock" type="number"  />
+
+    <input type="hidden" asp-for="Product.RowKey" />
+    <input type="hidden" asp-for="Product.PartitionKey" />
+    <input type="hidden" asp-for="Product.ETag" />
+    <input type="submit" class="btn btn-outline-primary" name="name" value="Güncelle" />
+</form>
+

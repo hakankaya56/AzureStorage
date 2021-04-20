@@ -1,0 +1,12 @@
+D:\MyProjects\AzureProject\AzureProject.Core\bin\Debug\netcoreapp3.1\AzureProject.Core.deps.json
+D:\MyProjects\AzureProject\AzureProject.Core\bin\Debug\netcoreapp3.1\AzureProject.Core.dll
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.csprojAssemblyReference.cache
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.AssemblyInfoInputs.cache
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.AssemblyInfo.cs
+D:\MyProjects\AzureProject\AzureProject.Core\bin\Debug\netcoreapp3.1\AzureProject.Core.pdb
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.csproj.CoreCompileInputs.cache
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.dll
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.pdb
+D:\MyProjects\AzureProject\AzureProject.Core\bin\Debug\netcoreapp3.1\AzureProject.Entities.dll
+D:\MyProjects\AzureProject\AzureProject.Core\bin\Debug\netcoreapp3.1\AzureProject.Entities.pdb
+D:\MyProjects\AzureProject\AzureProject.Core\obj\Debug\netcoreapp3.1\AzureProject.Core.csproj.CopyComplete

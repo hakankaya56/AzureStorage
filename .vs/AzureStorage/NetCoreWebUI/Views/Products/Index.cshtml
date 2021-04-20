@@ -1,0 +1,69 @@
+﻿@using NetCoreWebUI.Models.Products
+@using Microsoft.AspNetCore.Mvc.Routing
+@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Add Product</h3>
+<form class="form-inline" asp-action="Create" method="post" enctype="application/x-wwww-form-urlencoded">
+    <input class="form-control mr-1" asp-for="Product.Name" placeholder="Product Name" type="text" />
+    <input class="form-control mr-1" asp-for="Product.Brand" placeholder="Brand" type="text" />
+    <input class="form-control mr-1" asp-for="Product.Price" placeholder="Price" type="number" min="1" />
+    <input class="form-control mr-2" asp-for="Product.Stock" placeholder="Stock" type="number" />
+
+    <input type="hidden" asp-for="Product.RowKey" />
+    <input type="hidden" asp-for="Product.PartitionKey"  />
+    <input type="submit" class="btn btn-outline-success" name="name" value="Insert" />
+</form>
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <h3>Products</h3>
+    </div>
+    <div class="col-md-4">
+        <form class="form-inline" asp-action="GetProductFilterByPrice" method="get" >
+            <input class="form-control mr-1" name="price" placeholder="Price" type="number" />
+            <input type="submit" class="btn btn-outline-primary" name="name" value="Search" />
+        </form>
+    </div>
+</div>
+
+<hr/>
+<div class="row">
+    <table class="table table-bordered">
+        <tr>
+            <th>Row Key</th>
+            <th>Partition Key</th>
+            <th>Product Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Time Stamp</th>
+            <th>Actions</th>
+        </tr>
+
+        @foreach (var product in Model.ProductList)
+        {
+            <tr>
+                <td>@product.RowKey</td>
+                <td>@product.PartitionKey</td>
+                <td>@product.Name</td>
+                <td>@product.Brand</td>
+                <td>@product.Price</td>
+                <td>@product.Stock</td>
+                <td>@product.Timestamp.DateTime</td>
+                <td>
+                    <a class="btn-sm btn-outline-warning" asp-action="Update" asp-route-rowKey="@product.RowKey" asp-route-partitionKey="@product.PartitionKey">Update </a>
+                    <a asp-action="Delete" asp-route-rowKey="@product.RowKey" asp-route-partitionKey="@product.PartitionKey" class="btn-sm btn-outline-danger">Delete </a>
+                </td>
+
+            </tr>
+
+        }
+    </table>
+
+</div>

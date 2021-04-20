@@ -1,0 +1,9 @@
+D:\MyProjects\AzureProject\AzureProject.Entities\bin\Debug\netcoreapp3.1\AzureProject.Entities.deps.json
+D:\MyProjects\AzureProject\AzureProject.Entities\bin\Debug\netcoreapp3.1\AzureProject.Entities.dll
+D:\MyProjects\AzureProject\AzureProject.Entities\bin\Debug\netcoreapp3.1\AzureProject.Entities.pdb
+D:\MyProjects\AzureProject\AzureProject.Entities\obj\Debug\netcoreapp3.1\AzureProject.Entities.AssemblyInfoInputs.cache
+D:\MyProjects\AzureProject\AzureProject.Entities\obj\Debug\netcoreapp3.1\AzureProject.Entities.AssemblyInfo.cs
+D:\MyProjects\AzureProject\AzureProject.Entities\obj\Debug\netcoreapp3.1\AzureProject.Entities.csproj.CoreCompileInputs.cache
+D:\MyProjects\AzureProject\AzureProject.Entities\obj\Debug\netcoreapp3.1\AzureProject.Entities.dll
+D:\MyProjects\AzureProject\AzureProject.Entities\obj\Debug\netcoreapp3.1\AzureProject.Entities.pdb
+D:\MyProjects\AzureProject\AzureProject.Entities\obj\Debug\netcoreapp3.1\AzureProject.Entities.csprojAssemblyReference.cache

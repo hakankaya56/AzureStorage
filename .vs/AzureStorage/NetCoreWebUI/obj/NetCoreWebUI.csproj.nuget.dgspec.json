@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\NetCoreWebUI\\NetCoreWebUI.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Business\\AzureProject.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Business\\AzureProject.Business.csproj",
+        "projectName": "AzureProject.Business",
+        "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Business\\AzureProject.Business.csproj",
+        "packagesPath": "C:\\Users\\userx\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\userx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj": {
+                "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj"
+              },
+              "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj": {
+                "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj",
+        "projectName": "AzureProject.Core",
+        "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj",
+        "packagesPath": "C:\\Users\\userx\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\userx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj": {
+                "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj",
+        "projectName": "AzureProject.Entities",
+        "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\AzureProject.Entities.csproj",
+        "packagesPath": "C:\\Users\\userx\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\userx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\NetCoreWebUI\\NetCoreWebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\NetCoreWebUI\\NetCoreWebUI.csproj",
+        "projectName": "NetCoreWebUI",
+        "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\NetCoreWebUI\\NetCoreWebUI.csproj",
+        "packagesPath": "C:\\Users\\userx\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\NetCoreWebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\userx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Business\\AzureProject.Business.csproj": {
+                "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Business\\AzureProject.Business.csproj"
+              },
+              "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj": {
+                "projectPath": "D:\\MyProjects\\Github\\AzureStorage\\.vs\\AzureStorage\\AzureProject.Core\\AzureProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
